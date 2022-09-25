@@ -47,7 +47,7 @@ function TodoModal({ type, modalOpen, setModalOpen, todo }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (title === '') {
-      toast.error('Please enter a title');
+      toast.error('Vui lòng nhập tên công việc');
       return;
     }
     if (title && status) {
@@ -60,14 +60,14 @@ function TodoModal({ type, modalOpen, setModalOpen, todo }) {
             time: new Date().toLocaleString(),
           })
         );
-        toast.success('Task added successfully');
+        toast.success('Nhiệm vụ đã được thêm');
       }
       if (type === 'update') {
         if (todo.title !== title || todo.status !== status) {
           dispatch(updateTodo({ ...todo, title, status }));
-          toast.success('Task Updated successfully');
+          toast.success('Nhiệm vụ đã được cập nhật');
         } else {
-          toast.error('No changes made');
+          toast.error('Không có gì thay đổi');
           return;
         }
       }
@@ -107,10 +107,10 @@ function TodoModal({ type, modalOpen, setModalOpen, todo }) {
 
             <form className={styles.form} onSubmit={(e) => handleSubmit(e)}>
               <h1 className={styles.formTitle}>
-                {type === 'add' ? 'Add' : 'Update'} TODO
+                {type === 'add' ? 'Thêm' : 'Cập nhật'} Nhiệm vụ
               </h1>
               <label htmlFor="title">
-                Title
+                Tên công việc
                 <input
                   type="text"
                   id="title"
@@ -119,22 +119,22 @@ function TodoModal({ type, modalOpen, setModalOpen, todo }) {
                 />
               </label>
               <label htmlFor="type">
-                Status
+                Trạng thái
                 <select
                   id="type"
                   value={status}
                   onChange={(e) => setStatus(e.target.value)}
                 >
-                  <option value="incomplete">Incomplete</option>
-                  <option value="complete">Completed</option>
+                  <option value="incomplete">Chưa hoàn thành</option>
+                  <option value="complete">Đã hoàn thành</option>
                 </select>
               </label>
               <div className={styles.buttonContainer}>
                 <Button type="submit" variant="primary">
-                  {type === 'add' ? 'Add Task' : 'Update Task'}
+                  {type === 'add' ? 'Thêm' : 'Cập nhật'}
                 </Button>
                 <Button variant="secondary" onClick={() => setModalOpen(false)}>
-                  Cancel
+                  Thoát
                 </Button>
               </div>
             </form>

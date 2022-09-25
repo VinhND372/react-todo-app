@@ -40,7 +40,7 @@ function TodoItem({ todo }) {
 
   const handleDelete = () => {
     dispatch(deleteTodo(todo.id));
-    toast.success('Todo Deleted Successfully');
+    toast.success('Nhiệm vụ đã được xóa');
   };
 
   const handleUpdate = () => {

@@ -52,7 +52,7 @@ function AppContent() {
           ))
         ) : (
           <motion.p variants={child} className={styles.emptyText}>
-            No Todos
+            Không có nhiệm vụ
           </motion.p>
         )}
       </AnimatePresence>

@@ -19,16 +19,16 @@ function AppHeader() {
   return (
     <div className={styles.appHeader}>
       <Button variant="primary" onClick={() => setModalOpen(true)}>
-        Add Task
+        Thêm nhiệm vụ
       </Button>
       <SelectButton
         id="status"
         onChange={(e) => updateFilter(e)}
         value={filterStatus}
       >
-        <option value="all">All</option>
-        <option value="incomplete">Incomplete</option>
-        <option value="complete">Completed</option>
+        <option value="all">Tất cả</option>
+        <option value="incomplete">Chưa hoàn thành</option>
+        <option value="complete">Đã hoàn thành</option>
       </SelectButton>
       <TodoModal type="add" modalOpen={modalOpen} setModalOpen={setModalOpen} />
     </div>
