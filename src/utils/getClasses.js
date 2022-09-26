@@ -3,4 +3,3 @@ export const getClasses = (classes) =>
     .filter((item) => item !== '')
     .join(' ')
     .trim();
-
