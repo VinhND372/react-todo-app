@@ -2,6 +2,7 @@ import { motion, useMotionValue, useTransform } from 'framer-motion';
 import React from 'react';
 import styles from '../styles/modules/todoItem.module.scss';
 
+
 const checkVariants = {
   initial: {
     color: '#fff',
