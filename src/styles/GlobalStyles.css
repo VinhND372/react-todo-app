@@ -23,9 +23,7 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   width: 100%;
-  min-height: 100vh;
-  background-image: url("../images/bg.gif");
-  background-size: cover;
+  
 }
 * {
   font-family: "Poppins", sans-serif;
