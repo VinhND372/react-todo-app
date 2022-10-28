@@ -1,10 +1,10 @@
-import AppContent from '../components/AppContent';
-import AppHeader from '../components/AppHeader';
-import PageTitle from '../components/PageTitle';
-import { Toaster } from 'react-hot-toast';
-import styles from '../styles/modules/todoapp.module.scss';
+import AppContent from '../components/AppContent'
+import AppHeader from '../components/AppHeader'
+import PageTitle from '../components/PageTitle'
+import { Toaster } from 'react-hot-toast'
+import styles from '../styles/modules/todoapp.module.scss'
 
-function TodoApp(){
+function TodoApp() {
   return (
     <>
       <div className={styles.container}>
@@ -18,8 +18,8 @@ function TodoApp(){
         position="bottom-right"
         toastOptions={{
           style: {
-            fontSize: '1.4rem',
-          },
+            fontSize: '1.4rem'
+          }
         }}
       />
     </>
