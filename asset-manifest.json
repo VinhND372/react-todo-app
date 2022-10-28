@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-todo-app/static/css/main.f068cde2.css",
-    "main.js": "/react-todo-app/static/js/main.e7fcefa0.js",
+    "main.css": "/react-todo-app/static/css/main.3328cb90.css",
+    "main.js": "/react-todo-app/static/js/main.311569c3.js",
     "static/media/bg.gif": "/react-todo-app/static/media/bg.47ec0a8fd85f20480e8d.gif",
     "static/media/poppins-all-400-normal.woff": "/react-todo-app/static/media/poppins-all-400-normal.d9177076ce88015af78a.woff",
     "static/media/poppins-all-600-normal.woff": "/react-todo-app/static/media/poppins-all-600-normal.69a5e00329a066e267e4.woff",
@@ -20,11 +20,11 @@
     "static/media/poppins-latin-ext-700-normal.woff2": "/react-todo-app/static/media/poppins-latin-ext-700-normal.ecb421af890e30ac490b.woff2",
     "static/media/poppins-latin-ext-500-normal.woff2": "/react-todo-app/static/media/poppins-latin-ext-500-normal.64676cfe1b3697ce0aec.woff2",
     "index.html": "/react-todo-app/index.html",
-    "main.f068cde2.css.map": "/react-todo-app/static/css/main.f068cde2.css.map",
-    "main.e7fcefa0.js.map": "/react-todo-app/static/js/main.e7fcefa0.js.map"
+    "main.3328cb90.css.map": "/react-todo-app/static/css/main.3328cb90.css.map",
+    "main.311569c3.js.map": "/react-todo-app/static/js/main.311569c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.f068cde2.css",
-    "static/js/main.e7fcefa0.js"
+    "static/css/main.3328cb90.css",
+    "static/js/main.311569c3.js"
   ]
 }
