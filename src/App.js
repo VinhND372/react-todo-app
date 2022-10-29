@@ -36,7 +36,7 @@ function App() {
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/react-todo-app" element={<Home/>}/> */}
+        <Route path="/react-todo-app" element={<Home />} />
         <Route path="/todo-app" element={<TodoApp />} />
         <Route path="/timeline" element={<Timeline />} />
         <Route path="/info" element={<Profile />} />
