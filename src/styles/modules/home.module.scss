@@ -1,0 +1,88 @@
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background-image: linear-gradient(to right, #00014a, #281f6f);
+}
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-position: right;
+  background-size: cover;
+}
+.layer:nth-child(1) {
+  background-image: url(../../images/1.png);
+}
+.layer:nth-child(2) {
+  background-image: url(../../images/2.png);
+}
+.layer:nth-child(3) {
+  background-image: url(../../images/3.png);
+}
+.layer:nth-child(4) {
+  background-image: url(../../images/4.png);
+}
+.layer:nth-child(5) {
+  background-image: url(../../images/5.png);
+  animation: a_animate 3s infinite;
+}
+.layer:nth-child(6) {
+  background-image: url(../../images/6.png);
+  animation: a_animate 4s infinite;
+}
+.layer:nth-child(7) {
+  background-image: url(../../images/7.png);
+  animation: a_animate 5s infinite;
+}
+
+.introduce_box {
+  position: absolute;
+  margin-left: 80px;
+  top: 7%;
+  width: 30%;
+  height: 50%;
+  color: #fff;
+}
+.introduce_title {
+  margin-bottom: 30px;
+  font-size: 48px;
+}
+.introduce_content {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.slogan {
+  color: #e84393;
+  font-size: 20px;
+}
+.introduce_box a {
+  font-size: 14px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 136px;
+  height: 45px;
+  letter-spacing: 2px;
+  background: #e84393;
+  color: #fff;
+  border-radius: 30px;
+  margin-top: 52px;
+  animation: a_animate 1s infinite;
+}
+.introduce_box a:hover {
+  filter: drop-shadow(0 0 20px #e84393) drop-shadow(0 0 60px #e84393);
+}
+@keyframes a_animate {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}

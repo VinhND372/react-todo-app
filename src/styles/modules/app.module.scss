@@ -1,9 +1,6 @@
-
-
-
-
 .menu {
-  background-color: #5b21b6;
+  background-image: linear-gradient(to right, #00014a, #281f6f);
+  position: relative;
   color: #fff;
 }
 .menuList {
@@ -17,9 +14,10 @@
   padding: 0 10px;
   cursor: pointer;
   :hover {
-    color: #a78bfa;
+    color: #ff7d7d;
   }
 }
 .itemLink {
   color: #fff;
+  text-decoration: none;
 }

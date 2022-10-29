@@ -1,4 +1,4 @@
-@import "../_mixins.scss";
+@import '../_mixins.scss';
 
 .app__wrapper {
   max-width: 750px;
@@ -32,8 +32,8 @@
   width: max-content;
   height: auto;
 }
-.container{
+.container {
   min-height: 100vh;
-  background-image: url("../../images/bg.gif");
+  background-image: url(../../images/todoappBg.jpg);
   background-size: cover;
 }

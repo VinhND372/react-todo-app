@@ -21,15 +21,17 @@ html {
   font-size: 10px;
 }
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   width: 100%;
-  
 }
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .container {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
+}
+.active {
+  color: #ff7d7d;
 }

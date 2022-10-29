@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Routes, Link } from 'react-router-dom'
+import { Route, Routes, NavLink } from 'react-router-dom'
 import Home from './pages/home'
 import Profile from './pages/profile'
 import Timeline from './pages/timeline'
@@ -13,28 +13,24 @@ function App() {
       <nav className={styles.menu}>
         <ul className={styles.menuList}>
           <li className={styles.menuItem}>
-            <Link to="/">
+            <NavLink to="/" end className={styles.itemLink}>
               Home
-              {/* <a className={styles.itemLink}>Home</a> */}
-            </Link>
+            </NavLink>
           </li>
           <li className={styles.menuItem}>
-            <Link to="/todo-app">
+            <NavLink to="/todo-app" className={styles.itemLink}>
               Todo app
-              {/* <a className={styles.itemLink}>Todo app</a> */}
-            </Link>
+            </NavLink>
           </li>
           <li className={styles.menuItem}>
-            <Link to="/chart">
+            <NavLink to="/timeline" className={styles.itemLink}>
               Timeline
-              {/* <a className={styles.itemLink}>Timeline</a> */}
-            </Link>
+            </NavLink>
           </li>
           <li className={styles.menuItem}>
-            <Link to="/info">
+            <NavLink to="/info" className={styles.itemLink}>
               Profile
-              {/* <a className={styles.itemLink}>Profile</a> */}
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </nav>
